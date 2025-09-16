@@ -1,10 +1,12 @@
 import "./App.css";
-import Header from "./components/header/Header";
+import Header from "./components/sitebar/Header";
+import Signin from "./pages/signin/Signin";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      <Signin />
     </>
   );
 }
